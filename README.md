@@ -3,7 +3,7 @@
 
 # Detay
 
-[![Kişisel Web Sayfam](https://user-images.githubusercontent.com/40228440/68531586-f4dc3680-0324-11ea-815a-805326e70f04.JPG)](https://www.oguzhangumus.net/)
+
 
 
 [![Kişisel Web Sayfam](https://img.shields.io/badge/Meduim-Implementing%20video%20playback%20in%20a%20scrolled%20list%20(ListView%20%26%20RecyclerView)-blue.svg)](https://www.oguzhangumus.net/)
