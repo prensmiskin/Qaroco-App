@@ -140,7 +140,7 @@ dependencies {
 ![video_player_manager_demo](https://user-images.githubusercontent.com/40228440/80598239-b7ce4280-8a31-11ea-8ed9-7810fd8d1a12.gif)
 
 
-```
+
 
 # The Demo of List-Visibility-Utils:
 ![visibility_utils_demo](https://user-images.githubusercontent.com/40228440/80598643-565aa380-8a32-11ea-84b7-e72768b95168.gif)
