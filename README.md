@@ -3,7 +3,7 @@
 
 # Detay
 
-[![Kişisel Web Sayfam](https://www.oguzhangumus.net/)](https://www.oguzhangumus.net/)
+[![Kişisel Web Sayfam](https://user-images.githubusercontent.com/40228440/68531586-f4dc3680-0324-11ea-815a-805326e70f04.JPG)](https://www.oguzhangumus.net/)
 
 
 
