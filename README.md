@@ -1,7 +1,3 @@
-# Oğuzhan Gümüş
-
-
-# Detay
 
 
 
@@ -51,6 +47,8 @@ dependencies {
 
 # Usage of Video-Player-Manager
 ```
+```
+
  @Override
     public void onMapReady(@NonNull final MapboxMap mapboxMap) {
         this.mapboxMap = mapboxMap;
@@ -61,23 +59,17 @@ dependencies {
 
                 addUserLocations();
 
-                // Add the symbol layer icon to map for future use
                 style.addImage(symbolIconId, BitmapFactory.decodeResource(
                         getActivity().getResources(), R.drawable.map_default_map_marker));
 
-                // Create an empty GeoJSON source using the empty feature collection
                 setUpSource(style);
 
-                // Set up a new symbol layer for displaying the searched location's feature coordinates
                 setupLayer(style);
             }
         });
     }
 
-```
-Put multiple VideoPlayerViews into your xml file.
-In most cases you also need a images above that will be shown when playback is stopped.
-```
+
  StringRequest istek = new StringRequest(Request.Method.POST, url, new com.android.volley.Response.Listener<String>() {
             @Override
             public void onResponse(String response) {
@@ -142,12 +134,13 @@ In most cases you also need a images above that will be shown when playback is s
 
     }
 ```
-
+```
 
 # The Demo of Video-Player-Manager:
 ![video_player_manager_demo](https://user-images.githubusercontent.com/40228440/80598239-b7ce4280-8a31-11ea-8ed9-7810fd8d1a12.gif)
 
 
+```
 ```
 # The Demo of List-Visibility-Utils:
 ![visibility_utils_demo](https://user-images.githubusercontent.com/40228440/80598643-565aa380-8a32-11ea-84b7-e72768b95168.gif)
