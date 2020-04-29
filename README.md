@@ -4,10 +4,8 @@
 
 [![Kişisel Web Sayfam](https://img.shields.io/badge/web-page-red)](https://www.oguzhangumus.net/)
 
-# Neden Mapbox ? 
- Çünkü google map ile kıyaslandığında çok ekonomik. Mapbox geliştiricilere 250.000 request ücretsiz kullanım sunuyor.
- Google ise sadece 1 ay ücretsiz sunum yapıyor. Bu da mapbox'ın çok iyi bir harita hizmeti olduğunu kanıtlıyor.
- Ayrıca tutorial'ları çok güzel ve anlaşılır. 
+#  Mapbox  
+ Bu projede google yerine mapbox tercih edilmiştir.
  
 
 
