@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <SlidingDrawer
+        android:id="@+id/SlidingDrawer"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:content="@+id/contentLayout"
+        android:handle="@+id/slideButton"
+        android:orientation="vertical"
+        android:padding="10dip"
+        app:layout_constraintBottom_toBottomOf="@+id/mapView"
+        tools:ignore="MissingConstraints">
+        <Button
+            android:id="@+id/slideButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorBlack"
+            android:text="Kargo Gönder"
+            android:padding="5dp"
+            android:textColor="@color/colorWhite">
+
+        </Button>
+
+
+        <LinearLayout
+            android:id="@+id/contentLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorBlack"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dip">
+
+
+                <ScrollView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+
+            <EditText
+                android:id="@+id/edittextone"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="#FFFFFF"
+                android:hint="Kargonun Teslim Alınacağı Address"
+                android:inputType="textPostalAddress"
+                android:padding="15dp"
+                android:textColor="@color/colorBlack"
+                android:textColorHint="#000000"
+                android:textSize="10sp" />
+            <EditText
+                android:id="@+id/edittexttwo"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="#FFFFFF"
+                android:hint="  Kargonun Teslim Edileceği  Address"
+                android:inputType="textPostalAddress"
+                android:padding="15dp"
+                android:textColor="@color/colorBlack"
+                android:textColorHint="#000000"
+                android:textSize="10sp" />
+            <EditText
+                android:id="@+id/edittextthree"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="#FFFFFF"
+                android:hint="  Telefon Numaranızı Giriniz"
+                android:inputType="phone"
+                android:padding="15dp"
+                android:textColor="@color/colorBlack"
+                android:textColorHint="#000000"
+                android:textSize="15sp" />
+                        <EditText
+                            android:id="@+id/edittextfour"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="#FFFFFF"
+                            android:hint=" Kargonuzun  Teslim Tarihini Ve Saatini Giriniz"
+                            android:inputType="phone"
+                            android:padding="15dp"
+                            android:textColor="@color/colorBlack"
+                            android:textColorHint="#000000"
+                            android:textSize="15sp" />
+
+
+                        <!--
+                        <LinearLayout
+                            android:id="@+id/contentLayoutv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@color/colorBlack"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dip">
+
+                            <CalendarView
+                                android:id="@+id/calendarView"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@color/colorWhite"/>
+                        </LinearLayout>
+                        -->
+
+            <Button
+                android:id="@+id/btnkorgo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:background="@color/colorWhite"
+                android:text="Gönder"
+                android:textColor="@color/colorBlack"
+                android:layout_gravity="center">
+
+            </Button>
+                    </LinearLayout>
+
+                </ScrollView>
+        </LinearLayout>
+
+
+
+    </SlidingDrawer>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

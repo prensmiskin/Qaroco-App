@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Qaroco">
+        <menu>
+            <item
+                android:id="@+id/nav_item_birinci"
+                android:icon="@drawable/ic_home_black_24dp"
+                android:title="AnaSayfa" />
+            <item
+                android:id="@+id/nav_item_two"
+                android:icon="@drawable/fffdssdf"
+                android:title="Kişisel Bilgiler" />
+            <item
+                android:id="@+id/nav_item_ikinci"
+                android:icon="@drawable/ic_stat_name"
+                android:title="Ödeme Yöntemi" />
+            <item
+                android:id="@+id/nav_item_four"
+                android:icon="@android:drawable/sym_action_email"
+                android:title="Yardım" />
+            <item
+                android:id="@+id/nav_item_five"
+                android:icon="@drawable/fff"
+                android:title="Kazan" />
+            <item
+                android:id="@+id/nav_item_six"
+                android:icon="@drawable/sssd"
+                android:title="Promosyon" />
+            <item
+                android:id="@+id/nav_item_seven"
+                android:icon="@android:drawable/ic_menu_help"
+                android:title="S.S.S" />
+
+        </menu>
+
+    </item>
+    <item android:title="App">
+
+        <menu>
+            <item
+                android:id="@+id/nav_item_ucuncu"
+                android:icon="?attr/actionModeCloseDrawable"
+                android:title="Çıkış Yap" />
+        </menu>
+
+    </item>
+</menu>
